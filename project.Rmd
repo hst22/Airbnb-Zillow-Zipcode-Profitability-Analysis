@@ -2,12 +2,18 @@
 title: "Airbnb - Zillow Zip code Profitability Analysis"
 author: "by Hasnat Tahir"
 output:
-  html_document:
+  rmarkdown::github_document:
     df_print: paged
   word_document: default
   always_allow_html: yes
   pdf_document: default
 ---
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
+```
+
 ##   {.tabset}
 
 ### Introduction
